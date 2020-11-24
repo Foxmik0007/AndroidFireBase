@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         // CATCHING
-        PersonDataBase = FirebaseDatabase.getInstance().getReference("heople");
+        PersonDataBase = FirebaseDatabase.getInstance().getReference("People");
         CarDataBase = FirebaseDatabase.getInstance().getReference("Car");
 
         nom = (EditText) findViewById(R.id.Name);
